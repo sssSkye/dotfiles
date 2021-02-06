@@ -45,7 +45,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [ ((modm,               xK_Return), spawn $ XMonad.terminal conf)
 
     -- launch dmenu
-    , ((modm .|. shiftMask, xK_Return), spawn "dmenu_run")
+    , ((modm .|. shiftMask, xK_Return), spawn "dmenu_run -c -l 10 -h 25")
 
     -- switch keyboard layout to us
     , ((modm .|. shiftMask, xK_u     ), spawn "setxkbmap us")
