@@ -1,0 +1,3 @@
+# yes
+
+exec xmonad
