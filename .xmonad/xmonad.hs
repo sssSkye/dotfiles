@@ -47,6 +47,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch dmenu
     , ((modm .|. shiftMask, xK_Return), spawn "dmenu_run -c -l 10 -h 25")
 
+    -- launch surf
+    , ((modm,               xK_s     ), spawn "tabbed surf -pe")
+
     -- switch keyboard layout to us
     , ((modm .|. shiftMask, xK_u     ), spawn "setxkbmap us")
     

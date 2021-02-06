@@ -6,6 +6,7 @@ These are my dotfiles.
 |-------------------------|---------------------------|
 | mod + return            | launch a terminal         |
 | mod + shift + return    | launch dmenu              |
+| mod + s                 | launch surf with tabbed   |
 | mod + shift + u         | setxkbmap us              |
 | mod + shift + f         | setxkbmap fi              |
 | mod + shift + c         | kill focused window       |
@@ -13,3 +14,4 @@ These are my dotfiles.
 | mod + tab               | focus next window         |
 | mod + q                 | restart xmonad            |
 | mod + shift + q         | quit xmonad               |
+
