@@ -50,6 +50,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch surf
     , ((modm,               xK_s     ), spawn "tabbed surf -pe")
 
+    -- run slock
+    , ((modm,               xK_x     ), spawn "slock")
+
     -- switch keyboard layout to us
     , ((modm .|. shiftMask, xK_u     ), spawn "setxkbmap us")
     
