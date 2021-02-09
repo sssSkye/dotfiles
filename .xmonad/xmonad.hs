@@ -53,6 +53,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- run slock
     , ((modm,               xK_x     ), spawn "slock")
 
+    -- toggle struts
+    , ((mom,                xK_b     ), sendMessage ToggleStruts)
+
     -- switch keyboard layout to us
     , ((modm .|. shiftMask, xK_u     ), spawn "setxkbmap us")
     
@@ -144,7 +147,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
                                        >> windows W.shiftMaster)) ]
 
 -- layouts
-myLayoutHook = avoidStruts (tiled ||| Mirror tiled ||| Full)
+myLayoutHook = tiled ||| Mirror tiled ||| Full
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -162,7 +165,8 @@ myLayoutHook = avoidStruts (tiled ||| Mirror tiled ||| Full)
 myManageHook = composeAll
     [ className =? "Gimp"           --> doFloat
     , resource  =? "desktop_window" --> doIgnore
-    , resource  =? "kdesktop"       --> doIgnore ]
+    , resource  =? "kdesktop"       --> doIgnore 
+    , isFullscreen                  --> doFullFloat ]
 
 -- event handling
 myEventHook = mempty
