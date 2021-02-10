@@ -7,6 +7,7 @@ import XMonad.Util.SpawnOnce
 
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.EwmhDesktops
 
 import Data.Monoid
 import System.Exit
@@ -169,7 +170,7 @@ myManageHook = composeAll
     , isFullscreen                  --> doFullFloat ]
 
 -- event handling
-myEventHook = mempty
+myEventHook = Xmonad.Hooks.EwmhDesktops.fullscreenEventHook
 
 -- startup hook
 myStartupHook = do
