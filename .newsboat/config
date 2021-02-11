@@ -1,0 +1,13 @@
+auto-reload yes
+browser surf
+
+bind-key ; macro-prefix
+bind-key j next
+bind-key k prev
+bind-key J next-feed
+bind-key K prev-feed
+bind-key j down article
+bind-key k up article
+bind-key J next article
+bind-key K prev article
+

@@ -1,0 +1,17 @@
+# Five dashes on each side btw
+"----- Important -----"
+https://security.gentoo.org/glsa/feed.rss gentoo
+https://thehackernews.com/rss.xml news "~TheHackerNews"
+https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss news "~Yle uutiset"
+"----- Youtube -----"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCIHOP7e271SIumQgyl6XBQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8F_ci7-G_XBXvoRGQR-fMQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRE3NFNtdjR96-H4QG4U1Fg
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrUL8K81R4VBzm-KOYwrcxQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
+"----- People -----"
+https://lukesmith.xyz/rss.xml luke "~Luke's feed"
+
