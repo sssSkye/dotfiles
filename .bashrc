@@ -11,7 +11,7 @@ fi
 export PATH=$PATH:/opt/Bitwarden
 export PATH=$PATH:/opt/DiscordCanary
 
-export XSESSION=openbox
+#export XSESSION=openbox
 export EDITOR="vim"
 export TERMINAL="st"
 export BROWSER="surf"
