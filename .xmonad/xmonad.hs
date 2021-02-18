@@ -174,8 +174,8 @@ myEventHook = Xmonad.Hooks.EwmhDesktops.fullscreenEventHook
 
 -- startup hook
 myStartupHook = do
-        spawnOnce "feh --bg-fill -z /home/skye/wallpapers/*/* &"
-        spawnOnce "picom &"
+        spawnOnce "feh --bg-fill -z /home/skye/wallpapers/anime-sfp/* &"
+        spawnOnce "picom --config /home/skye/.config/picom.conf &"
 
 -- run xmonad with the settings specified
 main = do

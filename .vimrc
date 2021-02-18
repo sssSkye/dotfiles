@@ -29,7 +29,7 @@ set showcmd
 " syntax
 syntax enable
 
-" filetype
+" filetype things
 filetype plugin on
 filetype indent on
 

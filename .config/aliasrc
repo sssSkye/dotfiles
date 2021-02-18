@@ -5,7 +5,8 @@ alias \
     surfnotabbed="command surf" \
 	dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME" \
 	wp-random="feh --bg-fill -z /home/skye/wallpapers/*/*" \
-    wp-anime="feh --bg-fill -z /home/skye/wallpapers/anime-ish/*" \
+    wp-anime-o="feh --bg-fill -z /home/skye/wallpapers/anime-others/*" \
+    wp-anime-s="feh --bg-fill -z /home/skye/wallpapers/anime-sfp/*" \
     wp-sailormoon="feh --bg-fill -z /home/skye/wallpapers/sailormoon/*" \
 	cl="clear"
 

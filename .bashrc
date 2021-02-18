@@ -1,4 +1,5 @@
 #!/bin/bash
+figlet skye@raven
 pfetch
 
 # exports
@@ -7,8 +8,13 @@ then
     export PATH=$PATH:$HOME/bin
 fi
 
+export PATH=$PATH:/opt/Bitwarden
+export PATH=$PATH:/opt/DiscordCanary
+
+export XSESSION=openbox
 export EDITOR="vim"
 export TERMINAL="st"
+export BROWSER="surf"
 
 # prompt
 export PS1="\[$(tput bold)\][\[$(tput sgr0)\]\[\033[38;5;219m\]\w\[$(tput sgr0)\]\[$(tput bold)\]]\[$(tput sgr0)\] \[$(tput bold)\]>\[$(tput sgr0)\] \[$(tput sgr0)\]"
