@@ -1,0 +1,8 @@
+DESKTOP_ENV="OPENBOX"
+
+picom --config /home/skye/.config/picom.conf &
+
+feh --bg-fill -z /home/skye/wallpapers/anime-sfp/* &
+
+tint2 &
+
