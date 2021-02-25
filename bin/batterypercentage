@@ -1,0 +1,7 @@
+#!/bin/bash
+
+current=$(acpi -b | grep -P -o '[0-9]+(?=%)')
+
+echo $current%
+
+
