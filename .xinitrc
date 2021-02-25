@@ -6,7 +6,7 @@ bash /home/skye/bin/dwmstatus &
 
 feh --bg-fill -z /home/skye/wallpapers/anime-sfp/* &
 
-spotifyd --no-daemon &
+nohup spotifyd --no-daemon &
 
 exec dwm
 
