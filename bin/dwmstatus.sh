@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 while true; do
-    xsetroot -name "$(sh /home/skye/bin/currentvolume) | $(sh /home/skye/bin/currentxkbmap) | $(date +"%b %d %I:%M%P") | $(uname -r -s)"
+    xsetroot -name "$(bash /home/skye/bin/currentvolume) | $(bash /home/skye/bin/currentxkbmap) | $(date +"%b %d %I:%M%P") | $(uname -r -s)"
     sleep 2
 done
 

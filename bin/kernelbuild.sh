@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 export KCFLAGS="-Ofast -march=znver2 -pipe"
 export KPPCFLAGS="-Ofast -march=znver2 -pipe"
 make modules_prepare
