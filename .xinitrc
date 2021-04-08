@@ -1,12 +1,12 @@
 # nuts
 
-picom --config /home/skye/.config/picom.conf &
+#picom --config /home/skye/.config/picom.conf &
 
-bash /home/skye/bin/dwmstatus &
+#bash /home/skye/bin/dwmstatus &
 
-feh --bg-fill -z /home/skye/wallpapers/anime-sfp/* &
+#feh --bg-fill -z /home/skye/wallpapers/anime-sfp/* &
 
-nohup spotifyd --no-daemon &
+#nohup spotifyd --no-daemon &
 
 exec dwm
 
