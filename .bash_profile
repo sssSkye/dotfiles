@@ -5,8 +5,14 @@ if [ -d "$HOME/bin" ]; then
     export PATH=$PATH:$HOME/bin
 fi
 
-export PATH=$PATH:/opt/Bitwarden
-export PATH=$PATH:/opt/DiscordCanary
+if [ -d "/opt/Bitwarden" ]; then
+    export PATH=$PATH:/opt/Bitwarden
+fi
+
+if [ -d "/opt/DiscordCanary" ]; then
+    export PATH=$PATH:/opt/DiscordCanary
+fi
+
 export EDITOR="vim"
 export TERMINAL="st"
 
