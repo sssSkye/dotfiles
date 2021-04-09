@@ -3,6 +3,7 @@
 alias \
     surf="tabbed surf -pe" \
     surfnotabbed="command surf" \
+    connectbarrier="barrierc -f --no-tray --name naruchan --enable-crypto --no-daemon 192.168.100.18" \
     dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME" \
     wp-random="feh --bg-fill -z /home/skye/wallpapers/*/*" \
     wp-anime-o="feh --bg-fill -z /home/skye/wallpapers/anime-others/*" \
