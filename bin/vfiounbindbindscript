@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo 0000:08:00.1 > /sys/bus/pci/drivers/snd_hda_intel/unbind
+echo 0000:08:00.1 > /sys/bus/pci/drivers/vfio-pci/bind
+echo 0000:08:00.2 > /sys/bus/pci/drivers/xhci_hcd/unbind
+echo 0000:08:00.2 > /sys/bus/pci/drivers/vfio-pci/bind
+
+echo 0 > /sys/class/vtconsole/vtcon0/bind
+echo 0 > /sys/class/vtconsole/vtcon1/bind
+echo efi-framebuffer.0 > /sys/bus/platform/drivers/efi-framebuffer/unbind
+
