@@ -1,14 +1,16 @@
 #!/bin/sh
 
 alias \
+    dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME" \
+    connectbarrier="barrierc -f --no-tray --name naruchan --enable-crypto --no-daemon 192.168.100.18" \
+    vfiobindscript="sudo bash /home/skye/bin/vfiounbindbindscript" \
+    brightnessdef="light -S 25" \
+    brightnessmin="light -S 0" \
+    brightnessmax="light -S 100" \
     surf="tabbed surf -pe" \
     surfnotabbed="command surf" \
-    connectbarrier="barrierc -f --no-tray --name naruchan --enable-crypto --no-daemon 192.168.100.18" \
-    skye-vfiobindscript="sudo bash /home/skye/bin/vfiounbindbindscript" \
-    dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME" \
     wp-random="feh --bg-fill -z /home/skye/wallpapers/*/*" \
     wp-anime-o="feh --bg-fill -z /home/skye/wallpapers/anime-others/*" \
     wp-anime-s="feh --bg-fill -z /home/skye/wallpapers/anime-sfp/*" \
-    wp-sailormoon="feh --bg-fill -z /home/skye/wallpapers/sailormoon/*" \
     cl="clear"
 
