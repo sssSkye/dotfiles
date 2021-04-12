@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ ! -d $1 ]; then
+    echo "Given directory does not exist"
+    exit 1
+fi
+
+while true
+do
+    scene=$(ls -d $1 | shuf -n 1)
+    timeout 600 paperview $scene 5
+done
+
