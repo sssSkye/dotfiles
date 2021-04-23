@@ -3,10 +3,10 @@
 alias \
     dotfiles="git --git-dir=$HOME/dotfiles --work-tree=$HOME" \
     connectbarrier="barrierc -f --no-tray --name naruchan --enable-crypto --no-daemon 192.168.100.18" \
-    vfiobindscript="sudo bash /home/skye/bin/vfiounbindbindscript" \
     brightnessdef="light -S 25" \
     brightnessmin="light -S 0" \
     brightnessmax="light -S 100" \
+    gentooupgrade="doas emerge --ask --verbose --update --deep --changed-use @world" \
     surf="tabbed surf -pe" \
     surfnotabbed="command surf" \
     wp-random="feh --bg-fill -z /home/skye/wallpapers/*/*" \
